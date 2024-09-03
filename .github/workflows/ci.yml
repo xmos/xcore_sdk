@@ -117,7 +117,7 @@ jobs:
           submodules: recursive
 
       - name: Download documentation artifacts
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: ${{ needs.event_configuration.outputs.docs_artifact_name }}
           path: ${{ env.RELEASE_DOCS_DIR }}

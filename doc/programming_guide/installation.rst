@@ -49,6 +49,8 @@ Clone the XCORE-IOT repository with the following command:
 
     git clone --recurse-submodules git@github.com:xmos/xcore_iot.git
 
+The submodules require SSH to be correctly configured, please refer to https://docs.github.com/en/authentication/connecting-to-github-with-ssh for more details.
+
 =================================
 Step 2. Install Host Applications
 =================================

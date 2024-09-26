@@ -28,6 +28,8 @@ Some dependent components are included as git submodules. These can be obtained 
 
     git clone --recurse-submodules git@github.com:xmos/xcore_iot.git
 
+The submodules require SSH to be correctly configured, please refer to https://docs.github.com/en/authentication/connecting-to-github-with-ssh for more details.
+
 ## Documentation
 
 See the [official documentation](https://www.xmos.ai/documentation/XM-014660-PC-2/html/) for more information including:
